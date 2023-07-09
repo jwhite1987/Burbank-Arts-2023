@@ -1,0 +1,265 @@
+<svg fill="none" viewBox="0 0 800 800" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <html>
+
+            <head>
+                <style>
+                    body {
+                        font-family: 'Arial';
+                        color: #fbfbfb;
+                        overflow-x: hidden;
+                        background: #2e3135;
+                        border-radius: 10px;
+                        padding: 20px;
+                    }
+
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    h6 {
+                        font-family: 'Arial';
+                    }
+
+                    a,
+                    a:hover,
+                    a:focus,
+                    button,
+                    button:focus {
+                        text-decoration: none !important;
+                        outline: none !important;
+                        box-shadow: none !important;
+                    }
+
+                    ::selection {
+                        background: rgba(166, 175, 189, 0.3);
+                    }
+
+                    ::-moz-selection {
+                        background: rgba(166, 175, 189, 0.3);
+                    }
+
+                    #preloader {
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background-color: #fff;
+                        z-index: 9999999;
+                    }
+
+                    #status {
+                        width: 40px;
+                        height: 40px;
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        margin: -20px 0 0 -20px;
+                    }
+
+                    .spinner {
+                        margin: 0 auto;
+                        font-size: 10px;
+                        position: relative;
+                        text-indent: -9999em;
+                        border-top: 5px solid rgba(0, 0, 0, 0.2);
+                        border-right: 5px solid rgba(0, 0, 0, 0.2);
+                        border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+                        border-left: 5px solid #000;
+                        -webkit-transform: translateZ(0);
+                        -ms-transform: translateZ(0);
+                        transform: translateZ(0);
+                        -webkit-animation: load8 1.1s infinite linear;
+                        animation: load8 1.1s infinite linear;
+                    }
+
+                    .spinner,
+                    .spinner:after {
+                        border-radius: 50%;
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    @-webkit-keyframes load8 {
+                        0% {
+                            -webkit-transform: rotate(0deg);
+                            transform: rotate(0deg);
+                        }
+
+                        100% {
+                            -webkit-transform: rotate(360deg);
+                            transform: rotate(360deg);
+                        }
+                    }
+
+                    @keyframes load8 {
+                        0% {
+                            -webkit-transform: rotate(0deg);
+                            transform: rotate(0deg);
+                        }
+
+                        100% {
+                            -webkit-transform: rotate(360deg);
+                            transform: rotate(360deg);
+                        }
+                    }
+
+                    .back_top {
+                        text-align: center;
+                        position: fixed;
+                        bottom: 15px;
+                        height: 35px;
+                        width: 35px;
+                        display: none;
+                        z-index: 10000;
+                        border-radius: 3px;
+                        right: 20px;
+                        transition: all 0.5s;
+                    }
+
+                    .back_top i {
+                        color: #fff;
+                        line-height: 35px;
+                        font-size: 32px;
+                        display: block;
+                    }
+
+                    .container {
+                        font-family:
+                            system-ui,
+                            -apple-system,
+                            'Segoe UI',
+                            Roboto,
+                            Helvetica,
+                            Arial,
+                            sans-serif,
+                            'Apple Color Emoji',
+                            'Segoe UI Emoji';
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0;
+                        width: 100%;
+                        height: 100px;
+                        background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
+                        background-size: 600% 400%;
+                        animation: gradientBackground 10s ease infinite;
+                        border-radius: 10px;
+                        color: white;
+                        text-align: center;
+                    }
+
+                    @keyframes gradientBackground {
+                        0% {
+                            background-position: 0% 50%;
+                        }
+
+                        50% {
+                            background-position: 100% 50%;
+                        }
+
+                        100% {
+                            background-position: 0% 50%;
+                        }
+                    }
+
+                    @keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+
+                        66% {
+                            opacity: 0;
+                        }
+
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+
+                    h1 {
+                        font-size: 50px;
+                        line-height: 1.3;
+                        letter-spacing: 5px;
+                        text-transform: uppercase;
+                        text-shadow:
+                            0 1px 0 #efefef,
+                            0 2px 0 #efefef,
+                            0 3px 0 #efefef,
+                            0 4px 0 #efefef,
+                            0 12px 5px rgba(0, 0, 0, 0.1);
+                        animation: rotate ease-in-out 1s infinite alternate;
+                    }
+
+                    ul {
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: var(--color-main);
+                        font-weight: 700;
+                    }
+
+                    ul li {
+                        display: flex;
+                        letter-spacing: 0.125vw;
+                    }
+                </style>
+            </head>
+
+            <body>
+                <section class="section" id="about">
+                    <div class="body">
+                        <div class="row align-top">
+                            <div class="col-lg-6">
+                                <div class="container">
+                                    <h1>LBC 2023</h1>
+                                </div>
+                                <h3>Project Description</h3>
+                                <hr>
+                                </hr>
+                                <p>
+                                    <ul class="mb-10 about-social list-inline mt-4">
+                                        <li>The goal of this project is to develop an Adobe Illustrator file that is
+                                            a
+                                            geographical map representational of the geographical location of the
+                                            company's programs' reach within Sonoma County, CA as well as state and
+                                            nationwide represents the given datasets.
+                                        </li>
+                                        <li>Using Python and Jupyter Lab as a jumping off point, the datasets were
+                                            cleaned and divided by program and then used to create a prototype of
+                                            the
+                                            final map in Illustrator.
+                                        </li>
+                                        <li>Taking each address from the dataset, which are divided into five
+                                            individual
+                                            educational programs, they were then converted into latitude/longitude
+                                            coordinates via Google Geolocator API, and displayed on a custom map
+                                            overlay
+                                            made in Mapbox Studio.
+                                        </li>
+                                        <li>This year's version of the geographical map focuses almost entirely on
+                                            Sonoma County with a small map present to represent the entirety of
+                                            California and which programs are present in what county.
+                                        </li>
+                                        <li>Builiding upon the build/development process from last year, the points
+                                            that
+                                            were generated within the Jupyter Notebook were then exported as a .eps
+                                            file
+                                            and imported into illustrator for the final product, thus maintaining a
+                                            higher degree of graphical accuracy.
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </body>
+
+            </html>
+        </div>
+    </foreignObject>
+</svg>
